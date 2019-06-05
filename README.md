@@ -1,7 +1,7 @@
-MovieSearch
+#MovieSearch
 
-How to start in web
+###How to start in web
 
-Install dependencies npm install
+1. Install dependencies 'npm install'
 
-Start in web npm start-web
+2. Start in web 'npm start-web'
