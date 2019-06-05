@@ -6,7 +6,8 @@ import Home from './components/Home/Home';
 import Explore from './components/Explore/Explore';
 import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
-import Movie from './components/Movie/Movie';
+import Aboutus from './components/AboutUs/Aboutus'
+import Dashboard from './components/Dashboard/Dashboard'
 
 function App() 
 {
@@ -17,6 +18,8 @@ function App()
       <Route path = '/signin' component = {Signin}/>    
       <Route path = '/navigation' component = {Navigation}/>
       <Route path = '/register' component = {Register}/>
+      <Route path = '/aboutus' component = {Aboutus}/>
+      <Route path = '/dashboard' component = {Dashboard}/>
     </BrowserRouter>
       );
 }
